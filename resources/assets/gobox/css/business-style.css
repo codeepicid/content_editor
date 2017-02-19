@@ -1,0 +1,455 @@
+/**
+ * GoBox Home Style
+ * Author : Hendra;
+ */
+/*=========================================
+=            Headline Carousel            =
+=========================================*/
+/* line 21, ../sass/business-style.scss */
+#headline {
+  margin-top: -18px; }
+  /* line 24, ../sass/business-style.scss */
+  #headline h2 {
+    font-size: 48px;
+    color: #ffec00;
+    text-align: center; }
+  /* line 30, ../sass/business-style.scss */
+  #headline .header-pro {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 40px 60px; }
+  /* line 37, ../sass/business-style.scss */
+  #headline p {
+    padding: 20px 0;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300; }
+  /* line 44, ../sass/business-style.scss */
+  #headline button {
+    background-color: #ffec00;
+    color: #252525;
+    font-size: 22px;
+    font-weight: 700; }
+  /* line 51, ../sass/business-style.scss */
+  #headline img {
+    width: 70%;
+    max-width: 100%; }
+
+@media (min-width: 750px) {
+  /* line 58, ../sass/business-style.scss */
+  #headline {
+    /*padding: 200px;*/ } }
+/*=====  End of Headline Carousel  ======*/
+/*====================================
+=            Sign Section            =
+====================================*/
+/* line 70, ../sass/business-style.scss */
+#sign {
+  background-color: #ffec00;
+  padding: 15px 0; }
+  /* line 74, ../sass/business-style.scss */
+  #sign button {
+    width: 181px; }
+  /* line 78, ../sass/business-style.scss */
+  #sign .sign {
+    text-align: center; }
+    /* line 81, ../sass/business-style.scss */
+    #sign .sign button {
+      background-color: #ffffff;
+      color: #252525; }
+  /* line 87, ../sass/business-style.scss */
+  #sign .quote {
+    text-align: center; }
+    /* line 90, ../sass/business-style.scss */
+    #sign .quote button {
+      background-color: #252525;
+      color: #ffec00; }
+
+@media (min-width: 750px) {
+  /* line 99, ../sass/business-style.scss */
+  #sign .sign {
+    text-align: right;
+    border-right: 1px solid rgba(37, 37, 37, 0.14); }
+  /* line 104, ../sass/business-style.scss */
+  #sign .quote {
+    /*text-align: left;*/ }
+    /* line 107, ../sass/business-style.scss */
+    #sign .quote button {
+      background-color: #252525;
+      color: #ffec00; } }
+/*=====  End of Sign Section  ======*/
+/*======================================
+=            Whatis Section            =
+======================================*/
+/* line 122, ../sass/business-style.scss */
+#whatis .title {
+  background: url("../img/bg-whatis-business.jpg") center center no-repeat;
+  background-size: cover;
+  padding: 70px;
+  min-height: 470px; }
+  /* line 128, ../sass/business-style.scss */
+  #whatis .title h2 {
+    color: #ffec00;
+    font-size: 48px;
+    margin-bottom: 25px; }
+/* line 135, ../sass/business-style.scss */
+#whatis .desc {
+  background-color: #ffffff;
+  padding: 70px;
+  min-height: 470px; }
+  /* line 140, ../sass/business-style.scss */
+  #whatis .desc h3 {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px; }
+  /* line 147, ../sass/business-style.scss */
+  #whatis .desc p {
+    color: #757575; }
+
+@media (min-width: 750px) {
+  /* line 155, ../sass/business-style.scss */
+  #form .detail {
+    min-height: 535px; } }
+/*=====  End of Whatis Section  ======*/
+/*=======================================
+=            Benefit Section            =
+=======================================*/
+/* line 167, ../sass/business-style.scss */
+#benefit {
+  padding: 70px 0;
+  background-color: #ffffff; }
+  /* line 171, ../sass/business-style.scss */
+  #benefit h2 {
+    text-align: center;
+    font-size: 48px;
+    color: #252525;
+    margin-bottom: 45px; }
+  /* line 178, ../sass/business-style.scss */
+  #benefit .icon-benefit {
+    height: 157px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; }
+    /* line 184, ../sass/business-style.scss */
+    #benefit .icon-benefit img {
+      margin: 0 auto; }
+  /* line 189, ../sass/business-style.scss */
+  #benefit h3 {
+    font-family: "Roboto", sans-serif;
+    color: #252525;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700; }
+  /* line 200, ../sass/business-style.scss */
+  #benefit p {
+    color: #757575;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 15px;
+    text-align: center;
+    padding: 0 20px; }
+  /* line 209, ../sass/business-style.scss */
+  #benefit button {
+    background-color: #ffec00;
+    color: #252525;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 20px 0; }
+
+/*=====  End of Benefit Section  ======*/
+/*======================================
+=            Videos Section            =
+======================================*/
+/* line 228, ../sass/business-style.scss */
+#videos {
+  background-color: #ffffff;
+  padding: 70px 0; }
+  /* line 232, ../sass/business-style.scss */
+  #videos h2 {
+    text-align: center;
+    font-size: 48px;
+    color: #252525;
+    margin-bottom: 45px; }
+  /* line 239, ../sass/business-style.scss */
+  #videos .col-md-4 {
+    padding: 15px; }
+  /* line 243, ../sass/business-style.scss */
+  #videos .video-js {
+    padding-top: 56.25%;
+    width: 100%; }
+  /* line 247, ../sass/business-style.scss */
+  #videos .vjs-fullscreen {
+    padding-top: 0px; }
+  /* line 253, ../sass/business-style.scss */
+  #videos .video-js .vjs-big-play-button {
+    border: 1px solid #fff; }
+
+/*=====  End of Videos Section  ======*/
+/*====================================
+=            Blog Section            =
+====================================*/
+/* line 265, ../sass/business-style.scss */
+#blog {
+  background: #252525;
+  padding: 70px 0;
+  z-index: 1;
+  position: relative; }
+  /* line 271, ../sass/business-style.scss */
+  #blog .row {
+    /*overflow: hidden;*/ }
+    /* line 274, ../sass/business-style.scss */
+    #blog .row > .col-md-3 {
+      height: 458px; }
+    /* line 278, ../sass/business-style.scss */
+    #blog .row .desc {
+      padding-left: 0;
+      padding-right: 0;
+      background-image: url("../img/Jakarta_Skyline.jpg");
+      background-size: cover;
+      background-position: center center;
+      border-radius: 5px;
+      height: 100%; }
+      /* line 287, ../sass/business-style.scss */
+      #blog .row .desc .skyline {
+        padding: 40px 10%;
+        background-color: rgba(255, 236, 0, 0.85);
+        border-radius: 5px;
+        height: 100%; }
+      /* line 294, ../sass/business-style.scss */
+      #blog .row .desc h2 {
+        color: #252525;
+        text-transform: uppercase;
+        font-size: 48px; }
+      /* line 300, ../sass/business-style.scss */
+      #blog .row .desc p {
+        margin-top: 30px;
+        height: 150px;
+        overflow: hidden; }
+      /* line 306, ../sass/business-style.scss */
+      #blog .row .desc a {
+        position: absolute;
+        bottom: 15px;
+        right: 35px;
+        background-color: #252525;
+        color: #ffec00;
+        font-size: 12px; }
+    /* line 317, ../sass/business-style.scss */
+    #blog .row .case .cont-bg {
+      background-size: cover;
+      height: 229px;
+      padding: 10px;
+      border-top-right-radius: 3px;
+      border-top-left-radius: 3px; }
+      /* line 324, ../sass/business-style.scss */
+      #blog .row .case .cont-bg span {
+        background-color: #ffec00;
+        padding: 5px 10px;
+        border-radius: 3px;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #252525;
+        font-family: "Roboto", sans-serif; }
+    /* line 335, ../sass/business-style.scss */
+    #blog .row .case .cont-desc {
+      padding: 20px;
+      height: 229px;
+      background-color: #ffffff;
+      border-bottom-right-radius: 3px;
+      border-bottom-left-radius: 3px; }
+      /* line 342, ../sass/business-style.scss */
+      #blog .row .case .cont-desc span {
+        color: #BDBDBD;
+        font-size: 12px; }
+      /* line 347, ../sass/business-style.scss */
+      #blog .row .case .cont-desc h3 {
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        color: #252525;
+        margin: 10px 0;
+        font-weight: 700;
+        line-height: 20px; }
+      /* line 356, ../sass/business-style.scss */
+      #blog .row .case .cont-desc p {
+        line-height: 20px;
+        color: #757575; }
+
+@media (max-width: 768px) {
+  /* line 368, ../sass/business-style.scss */
+  #blog .row > .col-md-3 {
+    margin-bottom: 30px; } }
+@media (min-width: 768px) {
+    /*#blog {
+		.skyline {
+			padding: 70px 10%;
+	        padding-bottom: 300px;
+	        margin-bottom: -300px;
+		}
+		.row [class*="col-"] {
+	        padding-bottom: 300px;
+	        margin-bottom: -300px;
+	    }
+	}*/ }
+/*=====  End of Blog Section  ======*/
+/* line 392, ../sass/business-style.scss */
+#form {
+  /*padding-top: 70px;*/
+  background: #FFF; }
+#form .detail {
+  background-color: #252525;
+  padding: 0;
+  min-height: 300px;
+  background-image: url("../img/Jakarta_Skyline.jpg");
+  background-size: cover;
+  background-position: center center; }
+  /* line 400, ../sass/business-style.scss */
+  #form .detail img {
+    width: 70%;
+    max-width: 100%; }
+  /* line 405, ../sass/business-style.scss */
+  #form .detail .skyline {
+    padding: 40px 10%;
+    min-height: 300px;
+    background-color: rgba(37, 37, 37, 0.85);
+    height: 100%; }
+  /* line 412, ../sass/business-style.scss */
+  #form .detail h2 {
+    color: #ffec00;
+    font-size: 48px;
+    margin-bottom: 25px; }
+  /* line 418, ../sass/business-style.scss */
+  #form .detail p {
+    margin: 20px 0;
+    color: #ffffff; }
+/* line 424, ../sass/business-style.scss */
+#form .form {
+  background-color: #ffffff;
+  padding: 30px 15px;
+  min-height: 535px;
+  border-top: 1px solid; 
+  margin-top: -1px; }
+  /* line 429, ../sass/business-style.scss */
+  #form .form .form-control {
+    background-image: linear-gradient(#ffec00, #ffec00), linear-gradient(#d2d2d2, #d2d2d2); }
+  /* line 433, ../sass/business-style.scss */
+  #form .form label {
+    color: #252525; }
+  /* line 437, ../sass/business-style.scss */
+  #form .form label.desc {
+    display: block;
+    color: rgba(131, 133, 133, 0.52); }
+/* line 443, ../sass/business-style.scss */
+#form button {
+  background-color: #ffec00;
+  color: #252525; }
+
+@media (min-width: 750px) {
+  /* line 451, ../sass/business-style.scss */
+  #form .detail {
+    min-height: 535px; }
+  /* line 454, ../sass/business-style.scss */
+  #form .skyline {
+    min-height: 535px !important; } }
+/*=====  End of Form Section  ======*/
+/*========================================
+=            Gradient Section            =
+========================================*/
+/* line 466, ../sass/business-style.scss */
+#gradient {
+  background: url("../img/bg-gradient-business.jpg") center center repeat;
+  background-size: cover;
+  height: 36px; }
+
+/*=====  End of Gradient Section  ======*/
+/*=======================================
+=            Clients Section            =
+=======================================*/
+/* line 478, ../sass/business-style.scss */
+#clients {
+  background-color: #ffffff;
+  padding: 70px 0 0; }
+  /* line 482, ../sass/business-style.scss */
+  #clients h2 {
+    color: #252525;
+    text-align: center;
+    font-size: 48px; }
+  /* line 488, ../sass/business-style.scss */
+  #clients .clients .logo {
+    text-align: center;
+    padding: 30px 20px;
+    display: block;
+    display: inline-block !important;
+    vertical-align: middle;
+    float: none !important;
+    margin-right: -15px; }
+  /* line 498, ../sass/business-style.scss */
+  #clients .clients img {
+    max-height: 80px; }
+
+@media (min-width: 768px) {
+  /* line 507, ../sass/business-style.scss */
+  #clients .clients img {
+    margin: 0 auto;
+    /*height: 40px;*/
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.5;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease; }
+  /* line 523, ../sass/business-style.scss */
+  #clients .clients img:hover, #clients .clients img:focus {
+    -webkit-filter: none;
+    -moz-filter: none;
+    -o-filter: none;
+    -ms-filter: none;
+    filter: none;
+    opacity: 1; } }
+/*=====  End of Clients Section  ======*/
+
+/*=====  Revision Start  ======*/
+
+#promo-carousel {
+  padding: 70px 0px;
+  z-index: 1;
+  position: relative;
+  background: #ffec00;
+  background: -moz-linear-gradient(top, #ffec00 50%, #ffffff 50%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#ffec00), color-stop(50%,#ffffff));
+  background: -webkit-linear-gradient(top, #ffec00 50%,#ffffff 50%);
+  background: -o-linear-gradient(top, #ffec00 50%,#ffffff 50%);
+  background: -ms-linear-gradient(top, #ffec00 50%,#ffffff 50%);
+  background: linear-gradient(to bottom, #ffec00 50%,#ffffff 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffec00', endColorstr='#ffffff',GradientType=0 );
+  min-height: 508px;
+}
+
+.carousel-inner>.item>a>img {
+  margin: 0 auto;
+}
+
+.carousel-control.right, .carousel-control.left {
+  background: none;
+}
+
+#promo-carousel .carousel-control.left .svg, #promo-carousel .carousel-control.right .svg {
+    position: absolute;
+    top: 235px;
+}
+
+@media (max-width: 767px) {
+  #promo-carousel {
+    display: none;
+  }
+}
+
+/*=====  Revision End  ======*/

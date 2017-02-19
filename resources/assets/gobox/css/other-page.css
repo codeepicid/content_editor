@@ -1,0 +1,184 @@
+
+/*OTHER PAGE*/
+.other-page {
+    height: 270px;
+    padding: 50px 0px;
+
+}
+.single-page {
+        background: #fff;
+    padding: 50px 0px;
+}
+.single-page h4,
+.single-page h5 {
+    font-family: 'Roboto', sans-serif;
+}
+.single-page h2 {
+    font-size: 60px;
+    margin: 0px 0px 10px;
+    padding: 0px;
+}
+.single-page .faq-section {
+  margin-bottom: 50px;  
+}
+.single-page h3 {
+    font-size: 40px;
+    margin: 0px 0px 10px;
+    padding: 0px;
+}
+.single-page p {
+    margin-bottom: 20px;
+}
+.single-page .row {
+   margin-bottom: 20px;
+}
+.single-page .no-link  {
+}
+.single-page .no-link a {
+    color: #757575;
+}
+.single-page .faq-list li{
+margin-bottom: 20px;
+padding: 0px;
+text-indent:0px;
+}
+.single-page .faq-list {
+list-style: none !important;
+padding: 0px !important;
+margin-bottom: 20px !important;
+}
+.single-page .faq-list p {
+    margin-bottom: 15px;
+    line-height: 20px;
+    font-style: 14px;
+    
+}
+.single-page .faq-list li:before {
+    display: none;
+}
+
+.side-widget {
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+.side-widget .widget-head {
+    margin-top: 10px;
+}
+.side-widget .widget-head h3 {
+    font-size: 30px;
+    line-height: 30px;
+}
+.yellow-widget {
+    background: #FFEC00;
+    min-height: 800px;
+}
+.yellow-widget .widget-head {
+    border-bottom: 3px solid #fff;
+    margin-bottom: 10px;
+}
+.yellow-widget .widget-content {
+    padding: 5px 11px;
+}
+.yellow-widget .widget-list {
+    list-style: none;
+    padding: 0px 0px;
+}
+.yellow-widget .widget-list li {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+.yellow-widget .widget-list li:before {
+    display: none;
+}
+.yellow-widget .widget-list li span {}
+.yellow-widget .widget-list li span i {}
+.yellow-widget .widget-list li a {
+    font-size: 16px;
+    color: #242424;
+}
+.top-download .fa {
+font: normal normal normal 14px/2 'FontAwesome';
+}
+
+.driver {
+    width: 180px;
+    margin: 20px !important;
+}
+.driver-desc {
+    text-align: left;
+    width: auto;
+    display: block;
+    margin: 10px;
+    position: relative;
+    margin-top: 0px;
+}
+
+.red {
+    color: red;
+}
+
+.penjelasan {
+    display: block;
+    position: relative;
+    color: #bbb;
+}
+
+.form-group {
+    padding: 0 40px;
+}
+
+.form-group .control-label {
+    text-transform: uppercase;
+}
+
+.checkbox .checkbox-material {
+    color: #777777;
+}
+
+.checkbox .checkbox-material .check {
+    margin-right: 8px;
+}
+
+.checkbox label {
+    color: #bbb;
+    text-transform: uppercase;
+}
+
+.form-horizontal .checkbox {
+    float: left;
+    margin-right: 50px;
+}
+
+.btn-primary:not(.btn-link):not(.btn-flat) {
+    background-color: #000;
+}
+
+.form-horizontal {
+    margin-top: 10px;
+}
+
+.alert {
+    background: #bbb;
+    margin-top: 20px;
+}
+
+.alert ul li {
+    color: red;
+}
+
+.alert ul li span {
+    color: #acacac;
+    font-size: 12px;
+}
+
+@media (max-width: 991px) {
+    .yellow-widget {
+    min-height: 200px;
+    margin: 40px 30px 0 45px;
+    }
+    .form-horizontal {
+    margin: 40px 30px 60px 45px;
+    }
+}
