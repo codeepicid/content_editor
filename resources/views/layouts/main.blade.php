@@ -39,6 +39,10 @@
 		.cell-action{
 			width:5%;
 		}
+		.select2-container--default .select2-selection--single {
+			border-radius: 0px;
+		}
+		
 	</style>
 	@yield('csspage')
 </head>
@@ -50,6 +54,12 @@
 		<div class="sidebar-menu">
 			<ul class="menu-items" id="menuitems">
 				<li class="m-t-10">
+					<a href="{{ url('v/home') }}">
+						<span class="title">Home</span>
+					</a>
+					<span class="icon-thumbnail"><i class="fa fa-home"></i></span>
+				</li>
+				<li>
 					<a href="{{ url('v/user') }}">
 						<span class="title">User</span>
 					</a>
@@ -61,13 +71,13 @@
 					</a>
 					<span class="icon-thumbnail"><i class="fa fa-file-o"></i></span>
 				</li>
-				<!-- <li>
+				<li>
 					<a href="{{ url('v/gallery') }}">
 						<span class="title">Gallery</span>
 					</a>
 					<span class="icon-thumbnail"><i class="fa fa-image"></i></span>
 				</li>
-				<li>
+				<!-- <li>
 					<a href="{{ url('v/post') }}">
 						<span class="title">Review</span>
 					</a>

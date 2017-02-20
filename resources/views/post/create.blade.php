@@ -54,13 +54,15 @@ New Post -
 										</div>
 										<br>
 										<div class="row">
-											<div class="col-xs-12">
-												<input type="text" class="form-control" name="category" placeholder="Category" id="category" required>
+											<div class="col-xs-6">
+												<select class="form-control select2">
+													<option>Berita</option>
+													<option>Testimonial</option>
+													<option>Partner</option>
+													<option>Kendaraan Customer</option>
+												</select>
 											</div>
-										</div>
-										<br>
-										<div class="row">
-											<div class="col-xs-12">
+											<div class="col-xs-6">
 												<input type="text" class="form-control tag" name="tag" placeholder="Tag" id="tag">
 											</div>
 										</div>
@@ -106,7 +108,7 @@ function readURL(input,target) {
 $(document).ready(function(){
 	$('.tag').tagsinput({});
 	$('.summernote').summernote({
-		height:300,
+		height:200,
 		onfocus: function(e){
 			$('body').addClass('overlay-disabled');
 		},onblur:function(e){
